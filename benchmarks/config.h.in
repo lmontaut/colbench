@@ -1,0 +1,12 @@
+//
+// Copyright (c) 2023 INRIA
+// Author: Louis Montaut
+//
+
+#ifndef COLBENCH_RESOURCES_CONFIG_
+#define COLBENCH_RESOURCES_CONFIG_
+
+#define COLBENCH_YCB_DIR "@PROJECT_SOURCE_DIR@/benchmarks/ycb"
+#define COLBENCH_ELLIPSOID_DIR "@PROJECT_SOURCE_DIR@/benchmarks/ellipsoids"
+
+#endif

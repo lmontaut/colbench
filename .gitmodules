@@ -1,0 +1,6 @@
+[submodule "hpp-fcl"]
+	path = hpp-fcl
+	url = git@github.com:lmontaut/hpp-fcl.git
+[submodule "cmake"]
+	path = cmake
+	url = https://github.com/jrl-umi3218/jrl-cmakemodules.git

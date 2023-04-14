@@ -1,0 +1,15 @@
+build*
+*__pycache__
+*.obj
+*.stl
+.ccls-cache
+compile_commands.json
+benchmarks/ycb/data/ycb_data
+benchmarks/ycb/data/ycb.csv
+*.DS_Store
+/benchmarks/ycb/data/
+.cache/clangd/index
+save.bin
+save.p
+benchmarks/ellipsoids/data
+*.svg

@@ -1,0 +1,13 @@
+#
+# Copyright (c) 2023 INRIA
+# Author: Louis Montaut
+#
+
+add_benchmark(generate_ycb_collision_problems generate_ycb_collision_problems.cpp)
+add_benchmark(run_ycb_benchmark run_ycb_benchmark.cpp)
+add_benchmark(worst_case worst_case.cpp)
+add_benchmark(run_ycb_trajectories_benchmark run_ycb_trajectories_benchmark.cpp)
+add_benchmark(generate_ycb_gjk_vs_proxqp_collision_problems generate_ycb_gjk_vs_proxqp_collision_problems.cpp)
+add_benchmark(run_ycb_gjk_vs_proxqp run_ycb_gjk_vs_proxqp.cpp)
+add_benchmark(generate_ycb_table_collision_problems generate_ycb_table_collision_problems.cpp)
+add_benchmark(run_ycb_table run_ycb_table.cpp)
