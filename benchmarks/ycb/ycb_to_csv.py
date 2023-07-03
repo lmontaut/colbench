@@ -40,7 +40,7 @@ def is_path_to_ignore(mesh_path: str) -> bool:
     return False
 
 if __name__ == "__main__":
-    if os.path.exists("./benchmarks/ycb/data"):
+    if not os.path.exists("./benchmarks/ycb/data"):
         print("Please check that you are at the root of the repository and that the YCB dataset has been downloaded.\
               Run `python benchmarks/ycb/ycb_download.py` to download YCB.")
     else:
