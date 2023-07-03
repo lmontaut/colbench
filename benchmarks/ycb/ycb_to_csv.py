@@ -60,6 +60,7 @@ if __name__ == "__main__":
                 mesh: hppfcl.BVHModelBase = loader.load(mesh_path)
                 mesh.buildConvexHull(True, "Qt")
                 shape: hppfcl.ConvexBase = mesh.convex
+                shape.buildDoubleDescription()
                 print(f"{dir}: num vertices = {shape.num_points}")
                 shape_path.append(mesh_path)
                 num_vertices.append(shape.num_points)
